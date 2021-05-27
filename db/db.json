@@ -1,8 +1,26 @@
-{
-    "notes": [
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
+[
+  {
+    "title": "Test Title",
+    "text": "Test text"
+  },
+  {
+    "title": "fdsdf",
+    "text": "fdfd"
+  },
+  {
+    "title": "Nova",
+    "text": "Nota"
+  },
+  {
+    "title": "dsadasdas",
+    "text": "dasdasads"
+  },
+  {
+    "title": "sdadsadas",
+    "text": "dassda"
+  },
+  {
+    "title": "teste",
+    "text": "teste"
+  }
 ]
-}
