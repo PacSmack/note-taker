@@ -1,0 +1,28 @@
+{
+  "name": "note-taker",
+  "version": "1.0.0",
+  "description": "11th week challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coding-boot-camp/miniature-eureka.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/coding-boot-camp/miniature-eureka/issues"
+  },
+  "homepage": "https://github.com/coding-boot-camp/miniature-eureka#readme"
+}
