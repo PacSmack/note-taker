@@ -6,9 +6,9 @@ const app = express();
 
 app.use(express.static("public"))
 
-app.get("/", (req, res) => {
-    
-})
+app.get("/api/notes", (req, res) => {
+    res.send('Hello');
+});
 
 
 
@@ -26,6 +26,6 @@ app.get("/", (req, res) => {
 
 
 
-app.listen(3001, () => {
-    console.log(`API server now on port 3001!`);
+app.listen(PORT, () => {
+    console.log(`API server now on port ${PORT}!`);
 });
