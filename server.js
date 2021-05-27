@@ -30,7 +30,9 @@ app.post("/api/notes", (req, res) => {
 
     let title = req.body.title;
     let text = req.body.text;
-    notes.push({ title: title, text: text });
+    let id = req.body.id;    
+    
+    notes.push({ title, text, id });
     fs.writeFile(path.join(__dirname, './db/db.json'), JSON.stringify(notes, null, 2), (err) => {
         if (err) {
             console.log(err);
