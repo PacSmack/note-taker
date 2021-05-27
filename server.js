@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static("public"))
 
 app.get("/api/notes", (req, res) => {
-    res.send('Hello');
+    res.json(notes);
 });
 
 
